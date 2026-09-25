@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Biu — High Impact Digital Studio</title>
+  </head>
+  <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen">
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          
+          <!-- Logo -->
+          <a href="#" class="flex items-center space-x-2 text-xl font-bold tracking-tight">
+            <span class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-sm font-black shadow-lg shadow-indigo-500/30">B</span>
+            <span>Studio<span class="text-indigo-400">Biu</span></span>
+          </a>
+
+          <!-- Desktop Navigation Links -->
+          <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+            <a href="#services" class="hover:text-white transition-colors duration-200">Layanan</a>
+            <a href="#work" class="hover:text-white transition-colors duration-200">Portofolio</a>
+            <a href="#pricing" class="hover:text-white transition-colors duration-200">Harga</a>
+            <a href="#faq" class="hover:text-white transition-colors duration-200">FAQ</a>
+          </nav>
+
+          <!-- Desktop CTA Button -->
+          <div class="hidden md:flex items-center">
+            <a href="#contact" class="px-4 py-2 text-sm font-medium bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg shadow-md shadow-indigo-600/20 transition duration-200">
+              Mulai Proyek
+            </a>
+          </div>
+
+          <!-- Mobile Hamburger Button -->
+          <div class="flex md:hidden">
+            <button id="menu-btn" type="button" class="text-slate-400 hover:text-white focus:outline-none p-2" aria-label="Buka Menu">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
+        <a href="#services" class="block text-slate-300 hover:text-white font-medium py-2">Layanan</a>
+        <a href="#work" class="block text-slate-300 hover:text-white font-medium py-2">Portofolio</a>
+        <a href="#pricing" class="block text-slate-300 hover:text-white font-medium py-2">Harga</a>
+        <a href="#faq" class="block text-slate-300 hover:text-white font-medium py-2">FAQ</a>
+        <a href="#contact" class="block text-center w-full mt-4 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg">
+          Mulai Proyek
+        </a>
+      </div>
+    </header>
+
+    <!-- Konten Dummy untuk Tes Scroll -->
+    <main class="pt-28 px-4 max-w-7xl mx-auto">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <div class="flex flex-col space-y-6">
+          
+          <div class="px-3 py-1 rounded-full text-xs font-medium w-fit inline-flex items-center gap-2 bg-indigo-950/60 border border-indigo-800/50 text-indigo-300">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Open for new projects
+          </div>
+          <div class="bg-linear-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">KaptenBiu</div>
+          <div class="text-3xl font-bold sm:text-3xl lg:text-2xl tracking-wide">wujudkan website yang kamu inginkan bersama kami</div>
+          <div id="kontak" class="flex flex-col sm:flex-row gap-4 pt-4">
+            <a href="#" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-slate-50 hover:text-white font-medium transition duration-200">konsultasi gratis</a>
+            <a href="#" class="px-4 py-2 rounded-lg border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-slate-300 hover:text-white font-medium transition duration-200">hasil karya</a>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 shadow-2xl backdrop-blur-sm">
+          <div class="flex items-center gap-2 mb-6 border-b border-slate-800/80 pb-2">
+            <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+            <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
+            <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+            <span class="text-xs text-slate-500 font-mono ml-2">studiobiu.dev/portfolio</span>
+          </div>
+          
+          <div class="flex gap-2 pb-2">
+            <h3 class="text-xl font-bold text-white">E-Katalog Toko Tani</h3>
+            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">Tailwind</span> 
+            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">UI/UX</span> 
+            <span class="px-2.5 py-1 rounded-md text-xs bg-indigo-900/50 text-indigo-300">Live Demo ↗</span>
+          </div>
+
+          <div class="flex gap-2 pb-2">
+            <h3 class="text-xl font-bold text-white">Web App Project Based Learning</h3>
+            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">Tailwind</span> 
+            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">UI/UX</span> 
+            <span class="px-2.5 py-1 rounded-md text-xs bg-indigo-900/50 text-indigo-300">Live Demo ↗</span>
+          </div>
+
+          <div class="flex gap-2 pb-2">
+            <h3 class="text-xl font-bold text-white">Company Profile</h3>
+            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">Tailwind</span> 
+            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">UI/UX</span> 
+            <span class="px-2.5 py-1 rounded-md text-xs bg-indigo-900/50 text-indigo-300">Live Demo ↗</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ================= PRICING SECTION ================= -->
+    <section id="pricing" class="py-20 px-4 max-w-7xl mx-auto border-t border-slate-900">
+      
+      <!-- 1. Header & Toggle -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Pilihan Paket Investasi</h2>
+        <p class="mt-4 text-slate-400">Pilih paket pengembangan website yang sesuai dengan kebutuhan bisnismu.</p>
+        
+        <!-- Area Tombol Toggle (Nanti kita pasang di sini) -->
+        <div class="mt-8 inline-flex items-center p-1 bg-slate-900 border border-slate-800 rounded-xl">
+          <button id="btn-project" type="button" class="px-4 py-2 text-sm font-medium rounded-lg bg-indigo-600 text-white transition duration-200">
+            Sekali Bayar
+          </button>
+          <button id="btn-monthly" type="button" class="px-4 py-2 text-sm font-medium rounded-lg text-slate-400 hover:text-white transition duration-200">
+            Langganan / Maintenance
+          </button>
+        </div>
+      </div>
+
+      <!-- 2. Grid 3 Kolom Kartu Harga -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        
+        <!-- Kartu 1: Starter -->
+        <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between">
+          <div>
+            <h3 class="text-lg font-semibold text-slate-300">Landing Page</h3>
+            <p class="text-sm text-slate-500 mt-1">Cocok untuk promosi produk atau event.</p>
+            <div class="mt-6 flex items-baseline">
+              <span class="text-4xl font-extrabold text-white" id="price-starter">Rp 1.5jt</span>
+              <span class="text-slate-400 text-sm ml-2" id="period-starter">/proyek</span>
+            </div>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2">✓ 1 Halaman Responsif</li>
+              <li class="flex items-center gap-2">✓ Desain Custom Modern</li>
+              <li class="flex items-center gap-2">✓ Integrasi WhatsApp</li>
+            </ul>
+          </div>
+          <a href="#contact" class="mt-8 block text-center py-2.5 px-4 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-medium transition">Pilih Paket</a>
+        </div>
+
+        <!-- Kartu 2: Pro (Paling Populer - Dibuat Lebih Mencolok) -->
+        <div class="bg-slate-900/80 border-2 border-indigo-500 rounded-2xl p-8 flex flex-col justify-between relative shadow-xl shadow-indigo-500/10">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-indigo-600 text-white px-3 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wider">
+            Paling Diminati
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-indigo-400">Company Profile / Katalog</h3>
+            <p class="text-sm text-slate-500 mt-1">Solusi lengkap bisnis & UMKM berkembang.</p>
+            <div class="mt-6 flex items-baseline">
+              <span class="text-4xl font-extrabold text-white" id="price-pro">Rp 3.5jt</span>
+              <span class="text-slate-400 text-sm ml-2" id="period-pro">/proyek</span>
+            </div>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2">✓ Hingga 5 Halaman</li>
+              <li class="flex items-center gap-2">✓ Fitur Katalog Produk</li>
+              <li class="flex items-center gap-2">✓ SEO Dasar & Optimasi Kecepatan</li>
+              <li class="flex items-center gap-2">✓ Gratis Domain & Hosting 1 Thn</li>
+            </ul>
+          </div>
+          <a href="#contact" class="mt-8 block text-center py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition shadow-lg shadow-indigo-600/30">Pilih Paket</a>
+        </div>
+
+        <!-- Kartu 3: Custom App -->
+        <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between">
+          <div>
+            <h3 class="text-lg font-semibold text-slate-300">Custom Web App</h3>
+            <p class="text-sm text-slate-500 mt-1">Sistem informasi atau web aplikasi khusus.</p>
+            <div class="mt-6 flex items-baseline">
+              <span class="text-4xl font-extrabold text-white">Custom</span>
+            </div>
+            <ul class="mt-6 space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2">✓ Fitur Interaktif Kompleks</li>
+              <li class="flex items-center gap-2">✓ Database & API Integration</li>
+              <li class="flex items-center gap-2">✓ Dashboard Admin Khusus</li>
+            </ul>
+          </div>
+          <a href="#contact" class="mt-8 block text-center py-2.5 px-4 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-medium transition">Konsultasi Dulu</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= FAQ SECTION ================= -->
+    <section id="faq" class="py-20 px-4 max-w-4xl mx-auto border-t border-slate-900">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-extrabold text-white tracking-tight">Pertanyaan yang Sering Diajukan</h2>
+        <p class="mt-3 text-slate-400">Punya pertanyaan seputar proses kerja sama? Temukan jawabannya di sini.</p>
+      </div>
+
+      <div class="space-y-4">
+        <!-- Item FAQ 1 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-xl overflow-hidden transition">
+          <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
+            <span>Berapa lama proses pembuatan satu website?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300">▼</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            Untuk Landing Page rata-rata memakan waktu 3-5 hari kerja. Sedangkan untuk Company Profile atau Katalog Produk membutuhkan waktu sekitar 1-2 minggu tergantung kelengkapan materi dan revisi.
+          </div>
+        </div>
+
+        <!-- Item FAQ 2 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-xl overflow-hidden transition">
+          <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
+            <span>Apakah websitenya sudah bisa dibuka di HP dengan rapi?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300">▼</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            Tentu saja! Semua website yang kami bangun menggunakan pendekatan Mobile-First dan responsive design murni, dioptimalkan agar ringan dan cepat diakses dari berbagai ukuran layar smartphone, tablet, maupun laptop.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-12 px-4">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+        
+        <!-- Brand / Copyright -->
+        <div class="flex items-center space-x-2 text-lg font-bold">
+          <span class="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-xs font-black">B</span>
+          <span>Studio<span class="text-indigo-400">Biu</span></span>
+          <span class="text-xs text-slate-500 font-normal ml-2">© 2026 Abiyyu Shiddiq As'ad. All rights reserved.</span>
+        </div>
+
+        <!-- Social / Contact Links -->
+        <div class="flex items-center space-x-6 text-sm text-slate-400">
+          <a href="https://github.com/Biw-id" target="_blank" class="hover:text-white transition">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" class="hover:text-white transition">LinkedIn</a>
+          <a href="mailto:abiyyudedev@gmail.com" class="hover:text-indigo-400 transition">abiyyudedev@gmail.com</a>
+        </div>
+
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
