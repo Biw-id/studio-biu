@@ -1,4 +1,4 @@
-# 🚀 Studio Biu — High-Impact Digital Studio Landing Page
+# Studio Biu — High-Impact Digital Studio Landing Page
 
 A sleek, high-converting digital agency landing page built with modern web technologies, focusing on clean typography, responsive design, and smooth user interactions.
 
@@ -8,17 +8,17 @@ A sleek, high-converting digital agency landing page built with modern web techn
 
 ---
 
-## ✨ Features
+## Features
 
-- **📱 Mobile-First Responsive Navigation:** Sticky header with backdrop-blur glassmorphism, responsive desktop menu, and animated mobile hamburger drawer.
-- **⚡ Two-Column Hero Section:** High-converting copywriting, pulsating live availability badge, and interactive code mockup window.
-- **💳 Interactive Pricing Table:** 3-column responsive pricing grid with dynamic billing toggle (*Per Proyek* vs *Langganan / Maintenance*) powered by DOM manipulation.
-- **❓ FAQ Accordion:** Clean expand/collapse accordion with synchronized arrow rotation animations.
-- **🎨 Modern Dark Aesthetic:** Built with Tailwind CSS v4 dark slate palette, gradient text effects, and accessible contrast ratios.
+- **Mobile-First Responsive Navigation:** Sticky header with backdrop-blur glassmorphism, responsive desktop menu, and animated mobile hamburger drawer.
+- **Two-Column Hero Section:** High-converting copywriting, pulsating live availability badge, and interactive code mockup window.
+- **Interactive Pricing Table:** 3-column responsive pricing grid with dynamic billing toggle (*Per Proyek* vs *Langganan / Maintenance*) powered by DOM manipulation.
+- **FAQ Accordion:** Clean expand/collapse accordion with synchronized arrow rotation animations.
+- **Modern Dark Aesthetic:** Built with Tailwind CSS v4 dark slate palette, gradient text effects, and accessible contrast ratios.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Markup & Styling:** HTML5, [Tailwind CSS v4](https://tailwindcss.com/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
@@ -26,7 +26,7 @@ A sleek, high-converting digital agency landing page built with modern web techn
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+ recommended)
@@ -57,7 +57,7 @@ A sleek, high-converting digital agency landing page built with modern web techn
 
 ---
 
-## 👤 Author
+## Author
 
 **Abiyyu Shiddiq As'ad (KaptenBiu)**
 - Website / Portfolio: [abiyyu-portfolio.netlify.app](https://abiyyu-portfolio.netlify.app/)
