@@ -64,6 +64,6 @@ npm run build
 **Abiyyu Shiddiq As'ad (Studio Biu)**
 - **Website Studio:** [studio-biu.netlify.app](https://studio-biu.netlify.app)
 - **Portofolio Utama:** [abiyyu-portfolio.netlify.app](https://abiyyu-portfolio.netlify.app)
-- **WhatsApp:** [+62 822-8963-4937](https://wa.me/6282289634937)
+- **WhatsApp:** [+62 822-8822-5830](https://wa.me/6282288225830)
 - **Email:** [abiyyudedev@gmail.com](mailto:abiyyudedev@gmail.com)
 - **GitHub:** [@Biw-id](https://github.com/Biw-id)

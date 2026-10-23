@@ -43,10 +43,10 @@ if (btnProject && btnMonthly) {
     if (periodPro) periodPro.textContent = '/proyek';
 
     if (ctaStarter) {
-      ctaStarter.href = 'https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Landing%20Page%20(Rp%201.5jt%20Sekali%20Bayar)';
+      ctaStarter.href = 'https://wa.me/6282288225830?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Landing%20Page%20(Rp%201.5jt%20Sekali%20Bayar)';
     }
     if (ctaPro) {
-      ctaPro.href = 'https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Pro%20(Rp%203.5jt%20Sekali%20Bayar)';
+      ctaPro.href = 'https://wa.me/6282288225830?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Pro%20(Rp%203.5jt%20Sekali%20Bayar)';
     }
   });
 
@@ -62,10 +62,10 @@ if (btnProject && btnMonthly) {
     if (periodPro) periodPro.textContent = '/bulan';
 
     if (ctaStarter) {
-      ctaStarter.href = 'https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Landing%20Page%20Langganan%20(Rp%20300rb%20per%20bulan)';
+      ctaStarter.href = 'https://wa.me/6282288225830?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Landing%20Page%20Langganan%20(Rp%20300rb%20per%20bulan)';
     }
     if (ctaPro) {
-      ctaPro.href = 'https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Pro%20Langganan%20(Rp%20750rb%20per%20bulan)';
+      ctaPro.href = 'https://wa.me/6282288225830?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Pro%20Langganan%20(Rp%20750rb%20per%20bulan)';
     }
   });
 }
