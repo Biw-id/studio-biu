@@ -1,41 +1,48 @@
 <!doctype html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio Biu — High Impact Digital Studio</title>
+    <title>Studio Biu — Solusi Pembuatan Website Modern, Cepat & Berkonversi Tinggi</title>
+    <meta name="description" content="Studio Biu membantu UMKM, profesional, dan bisnis berkembang memiliki website modern berkecepatan tinggi tanpa kompromi desain & fungsionalitas." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen">
+  <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white">
 
     <!-- ================= NAVBAR ================= -->
-    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+        <div class="flex items-center justify-between h-16 sm:h-20">
           
           <!-- Logo -->
-          <a href="#" class="flex items-center space-x-2 text-xl font-bold tracking-tight">
-            <span class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-sm font-black shadow-lg shadow-indigo-500/30">B</span>
-            <span>Studio<span class="text-indigo-400">Biu</span></span>
+          <a href="#" class="flex items-center space-x-2 text-xl font-extrabold tracking-tight group">
+            <span class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-400 flex items-center justify-center text-white text-base font-black shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform">B</span>
+            <span class="text-white">Studio<span class="text-indigo-400">Biu</span></span>
           </a>
 
           <!-- Desktop Navigation Links -->
           <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
             <a href="#services" class="hover:text-white transition-colors duration-200">Layanan</a>
             <a href="#work" class="hover:text-white transition-colors duration-200">Portofolio</a>
+            <a href="#process" class="hover:text-white transition-colors duration-200">Alur Kerja</a>
             <a href="#pricing" class="hover:text-white transition-colors duration-200">Harga</a>
             <a href="#faq" class="hover:text-white transition-colors duration-200">FAQ</a>
           </nav>
 
           <!-- Desktop CTA Button -->
-          <div class="hidden md:flex items-center">
-            <a href="#contact" class="px-4 py-2 text-sm font-medium bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg shadow-md shadow-indigo-600/20 transition duration-200">
-              Mulai Proyek
+          <div class="hidden md:flex items-center gap-3">
+            <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20ingin%20konsultasi%20pembuatan%20website%20untuk%20bisnis%20saya" target="_blank" rel="noopener noreferrer" class="h-10 px-5 text-xs sm:text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl shadow-lg shadow-indigo-600/30 transition duration-200 flex items-center gap-2">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              Konsultasi Proyek
             </a>
           </div>
 
           <!-- Mobile Hamburger Button -->
           <div class="flex md:hidden">
-            <button id="menu-btn" type="button" class="text-slate-400 hover:text-white focus:outline-none p-2" aria-label="Buka Menu">
+            <button id="menu-btn" type="button" class="text-slate-400 hover:text-white p-2 rounded-lg bg-slate-900 border border-slate-800" aria-label="Buka Menu">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
@@ -46,177 +53,745 @@
       </div>
 
       <!-- Mobile Dropdown Menu -->
-      <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
-        <a href="#services" class="block text-slate-300 hover:text-white font-medium py-2">Layanan</a>
-        <a href="#work" class="block text-slate-300 hover:text-white font-medium py-2">Portofolio</a>
-        <a href="#pricing" class="block text-slate-300 hover:text-white font-medium py-2">Harga</a>
-        <a href="#faq" class="block text-slate-300 hover:text-white font-medium py-2">FAQ</a>
-        <a href="#contact" class="block text-center w-full mt-4 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg">
-          Mulai Proyek
+      <div id="mobile-menu" class="hidden md:hidden bg-slate-900/95 border-b border-slate-800 px-6 pt-3 pb-6 space-y-3 backdrop-blur-xl">
+        <a href="#services" class="block text-slate-300 hover:text-white font-medium py-2 border-b border-slate-800/60">Layanan</a>
+        <a href="#work" class="block text-slate-300 hover:text-white font-medium py-2 border-b border-slate-800/60">Portofolio</a>
+        <a href="#process" class="block text-slate-300 hover:text-white font-medium py-2 border-b border-slate-800/60">Alur Kerja</a>
+        <a href="#pricing" class="block text-slate-300 hover:text-white font-medium py-2 border-b border-slate-800/60">Harga</a>
+        <a href="#faq" class="block text-slate-300 hover:text-white font-medium py-2 border-b border-slate-800/60">FAQ</a>
+        <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20ingin%20konsultasi%20pembuatan%20website%20untuk%20bisnis%20saya" target="_blank" rel="noopener noreferrer" class="block text-center w-full mt-4 px-4 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          Konsultasi via WhatsApp
         </a>
       </div>
     </header>
 
-    <!-- Konten Dummy untuk Tes Scroll -->
-    <main class="pt-28 px-4 max-w-7xl mx-auto">
-      
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <!-- ================= HERO SECTION ================= -->
+    <section class="relative pt-32 pb-20 sm:pt-40 sm:pb-28 overflow-hidden">
+      <!-- Ambient Glow Behind Hero -->
+      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[380px] bg-indigo-600/15 blur-[140px] rounded-full pointer-events-none -z-10"></div>
+      <div class="absolute top-1/3 right-10 w-[350px] h-[250px] bg-cyan-500/10 blur-[100px] rounded-full pointer-events-none -z-10"></div>
 
-        <div class="flex flex-col space-y-6">
-          
-          <div class="px-3 py-1 rounded-full text-xs font-medium w-fit inline-flex items-center gap-2 bg-indigo-950/60 border border-indigo-800/50 text-indigo-300">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Open for new projects
-          </div>
-          <div class="bg-linear-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">KaptenBiu</div>
-          <div class="text-3xl font-bold sm:text-3xl lg:text-2xl tracking-wide">wujudkan website yang kamu inginkan bersama kami</div>
-          <div id="kontak" class="flex flex-col sm:flex-row gap-4 pt-4">
-            <a href="#" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-slate-50 hover:text-white font-medium transition duration-200">konsultasi gratis</a>
-            <a href="#" class="px-4 py-2 rounded-lg border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-slate-300 hover:text-white font-medium transition duration-200">hasil karya</a>
-          </div>
-        </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
-        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 shadow-2xl backdrop-blur-sm">
-          <div class="flex items-center gap-2 mb-6 border-b border-slate-800/80 pb-2">
-            <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
-            <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
-            <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-            <span class="text-xs text-slate-500 font-mono ml-2">studiobiu.dev/portfolio</span>
-          </div>
-          
-          <div class="flex gap-2 pb-2">
-            <h3 class="text-xl font-bold text-white">E-Katalog Toko Tani</h3>
-            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">Tailwind</span> 
-            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">UI/UX</span> 
-            <span class="px-2.5 py-1 rounded-md text-xs bg-indigo-900/50 text-indigo-300">Live Demo ↗</span>
+          <!-- Left Column: Copywriting & Actions -->
+          <div class="lg:col-span-7 flex flex-col space-y-6 text-left">
+            
+            <!-- Live Availability Badge -->
+            <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full text-xs font-semibold w-fit bg-indigo-950/70 border border-indigo-500/30 text-indigo-300 shadow-sm">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>Available for New Projects • Slot Kuartal Ini</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
+              Bangun Website Bisnis yang <span class="bg-gradient-to-r from-indigo-400 via-cyan-300 to-indigo-300 bg-clip-text text-transparent">Cepat, Estetik</span>, dan Menghasilkan Penjualan.
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+              Studio Biu membantu UMKM, profesional, dan bisnis berkembang memiliki kehadiran digital berkelas tinggi. Website kencang di smartphone, bebas lelet, dan terintegrasi langsung dengan WhatsApp penjualan Anda.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 pt-2">
+              <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20ingin%20konsultasi%20pembuatan%20website%20untuk%20bisnis%20saya" target="_blank" rel="noopener noreferrer" class="h-12 px-6 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold flex items-center justify-center gap-2.5 shadow-xl shadow-indigo-600/30 hover:shadow-indigo-600/50 transition duration-200">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Konsultasi Gratis via WhatsApp
+              </a>
+              <a href="#work" class="h-12 px-6 rounded-xl border border-slate-700/80 bg-slate-900/60 hover:bg-slate-800 text-slate-200 hover:text-white font-medium flex items-center justify-center gap-2 transition duration-200">
+                Lihat Hasil Karya ↓
+              </a>
+            </div>
+
+            <!-- Micro Social Proof -->
+            <div class="pt-4 flex items-center gap-6 text-xs text-slate-400">
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Garansi 30 Hari</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Skor Kecepatan 95+</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>100% Hak Milik</span>
+              </div>
+            </div>
+
           </div>
 
-          <div class="flex gap-2 pb-2">
-            <h3 class="text-xl font-bold text-white">Web App Project Based Learning</h3>
-            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">Tailwind</span> 
-            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">UI/UX</span> 
-            <span class="px-2.5 py-1 rounded-md text-xs bg-indigo-900/50 text-indigo-300">Live Demo ↗</span>
+          <!-- Right Column: Interactive Studio Authority Card -->
+          <div class="lg:col-span-5">
+            <div class="relative group">
+              <!-- Glow behind card -->
+              <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl blur-lg opacity-25 group-hover:opacity-40 transition duration-500"></div>
+              
+              <div class="relative bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-2xl backdrop-blur-xl">
+                <!-- Browser Titlebar -->
+                <div class="flex items-center justify-between pb-4 border-b border-slate-800/80 mb-5">
+                  <div class="flex items-center gap-2">
+                    <div class="w-3 h-3 rounded-full bg-rose-500/80"></div>
+                    <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
+                    <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+                    <span class="text-xs text-slate-500 font-mono ml-2">studiobiu.dev/benchmark</span>
+                  </div>
+                  <span class="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Production Ready</span>
+                </div>
+
+                <!-- Metrics Grid -->
+                <div class="grid grid-cols-2 gap-3 mb-5">
+                  <div class="p-3.5 rounded-xl bg-slate-950/60 border border-slate-800/80">
+                    <div class="text-[11px] text-slate-400 font-medium">Google PageSpeed</div>
+                    <div class="text-2xl font-extrabold text-emerald-400 mt-0.5 flex items-baseline gap-1">
+                      99 <span class="text-xs text-slate-500 font-normal">/ 100</span>
+                    </div>
+                    <div class="text-[10px] text-slate-500 mt-1">Super cepat di mobile 4G</div>
+                  </div>
+                  <div class="p-3.5 rounded-xl bg-slate-950/60 border border-slate-800/80">
+                    <div class="text-[11px] text-slate-400 font-medium">Core Web Vitals</div>
+                    <div class="text-2xl font-extrabold text-cyan-400 mt-0.5">0.6s</div>
+                    <div class="text-[10px] text-slate-500 mt-1">First Contentful Paint</div>
+                  </div>
+                </div>
+
+                <!-- Showcase Preview Highlights -->
+                <div class="space-y-2.5">
+                  <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Standar Arsitektur Studio Biu:</div>
+                  <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-950/40 border border-slate-800/60 text-xs">
+                    <span class="text-slate-300 flex items-center gap-2">
+                      <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span> Desain Mobile-First Responsif
+                    </span>
+                    <span class="font-mono text-indigo-400">Android / iOS</span>
+                  </div>
+                  <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-950/40 border border-slate-800/60 text-xs">
+                    <span class="text-slate-300 flex items-center gap-2">
+                      <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span> Checkout WA & Form Lead
+                    </span>
+                    <span class="font-mono text-cyan-400">Direct API</span>
+                  </div>
+                  <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-950/40 border border-slate-800/60 text-xs">
+                    <span class="text-slate-300 flex items-center gap-2">
+                      <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Clean Code Tanpa Plugin Berat
+                    </span>
+                    <span class="font-mono text-emerald-400">Vite + Tailwind</span>
+                  </div>
+                </div>
+
+                <!-- Bottom Quote -->
+                <div class="mt-5 pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400">Mulai diskusi kebutuhan Anda</span>
+                  <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20ingin%20konsultasi" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 font-semibold flex items-center gap-1">
+                    Hubungi Sekarang ↗
+                  </a>
+                </div>
+
+              </div>
+            </div>
           </div>
 
-          <div class="flex gap-2 pb-2">
-            <h3 class="text-xl font-bold text-white">Company Profile</h3>
-            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">Tailwind</span> 
-            <span class="px-2.5 py-1 rounded-md text-xs bg-slate-800 text-slate-300">UI/UX</span> 
-            <span class="px-2.5 py-1 rounded-md text-xs bg-indigo-900/50 text-indigo-300">Live Demo ↗</span>
-          </div>
         </div>
       </div>
-    </main>
+    </section>
+
+    <!-- ================= WHY US / VALUE GRID ================= -->
+    <section class="py-16 border-y border-slate-900 bg-slate-950/60">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-indigo-500/40 transition">
+            <div class="w-11 h-11 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            </div>
+            <h3 class="text-base font-bold text-white mb-1.5">Super Cepat & Ringan</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Website dibangun dengan kode bersih modern tanpa plugin bloatware. Loading di bawah 1 detik di HP pembeli.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-cyan-500/40 transition">
+            <div class="w-11 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+            </div>
+            <h3 class="text-base font-bold text-white mb-1.5">Desain Mobile-First</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Dioptimalkan untuk smartphone terlebih dahulu, memberikan pengalaman visual yang memukau bagi calon pembeli.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-emerald-500/40 transition">
+            <div class="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+            </div>
+            <h3 class="text-base font-bold text-white mb-1.5">WhatsApp Ready</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Setiap tombol aksi diarahkan otomatis ke WhatsApp dengan format pesan rapi, mempermudah closing penjualan.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-amber-500/40 transition">
+            <div class="w-11 h-11 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            </div>
+            <h3 class="text-base font-bold text-white mb-1.5">Garansi Bug-Free 30 Hari</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Dukungan penuh setelah website meluncur. Anda mendapatkan source code lengkap dan panduan pemeliharaan.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LAYANAN / SERVICES ================= -->
+    <section id="services" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 border border-indigo-800/40 px-3 py-1 rounded-full">Layanan Kami</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-3">Solusi Digital Spesifik Sesuai Kebutuhan Anda</h2>
+        <p class="mt-4 text-slate-400 text-sm sm:text-base">Mulai dari landing page promosi instan hingga sistem informasi kustom, kami siap mewujudkannya dengan standar industri terbaik.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Service 1: Landing Page -->
+        <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800 hover:border-indigo-500/50 transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-xl font-bold mb-6">
+              🚀
+            </div>
+            <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Promosi & Iklan</div>
+            <h3 class="text-xl font-bold text-white group-hover:text-indigo-300 transition-colors">High-Converting Landing Page</h3>
+            <p class="text-sm text-slate-400 mt-3 leading-relaxed">
+              Halaman penjualan tunggal (*one-page*) yang didesain secara psikologis untuk mengubah pengunjung iklan (Facebook Ads/Google Ads/TikTok) menjadi calon pembeli yang langsung chat ke WhatsApp Anda.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-xs text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Headline & Struktur Copywriting Persuasif</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Integrasi Direct WhatsApp Lead Generator</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Pemasangan Meta Pixel & Google Analytics Ready</li>
+            </ul>
+          </div>
+          <div class="mt-8 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">Waktu Pengerjaan: 3–5 Hari</span>
+            <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20bikin%20Landing%20Page" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1">
+              Konsultasi Paket ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 2: Company Profile -->
+        <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center text-xl font-bold mb-6">
+              🏢
+            </div>
+            <div class="text-xs font-semibold text-cyan-400 uppercase tracking-wider mb-1">Branding & Trust</div>
+            <h3 class="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors">Company Profile & Web Bisnis</h3>
+            <p class="text-sm text-slate-400 mt-3 leading-relaxed">
+              Website profil perusahaan multi-halaman berstandar profesional tinggi untuk meningkatkan kredibilitas di mata klien B2B, investor, maupun mitra institusional pemerintah.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-xs text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Multi-Halaman: Home, Tentang, Layanan, Portofolio, Kontak</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Optimasi SEO On-Page Dasar (Google Search Index)</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Domain .com / .id & Email Bisnis Khusus (info@perusahaan.com)</li>
+            </ul>
+          </div>
+          <div class="mt-8 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">Waktu Pengerjaan: 7–14 Hari</span>
+            <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20bikin%20Company%20Profile" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-cyan-400 hover:text-cyan-300 flex items-center gap-1">
+              Konsultasi Paket ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 3: E-Katalog & UMKM Store -->
+        <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800 hover:border-emerald-500/50 transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-600/20 text-emerald-400 flex items-center justify-center text-xl font-bold mb-6">
+              🛍️
+            </div>
+            <div class="text-xs font-semibold text-emerald-400 uppercase tracking-wider mb-1">Retail & F&B / UMKM</div>
+            <h3 class="text-xl font-bold text-white group-hover:text-emerald-300 transition-colors">E-Katalog & WhatsApp Checkout</h3>
+            <p class="text-sm text-slate-400 mt-3 leading-relaxed">
+              Etalase produk online interaktif yang memudahkan pembeli memilih barang, memasukkan ke keranjang belanja, dan mengirimkan rekap pesanan langsung ke WhatsApp admin toko Anda.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-xs text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Live Search Realtime & Filter Kategori Produk</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Keranjang Belanja Interaktif (Cart Drawer)</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Generator Pesanan Otomatis ke WhatsApp Penjual</li>
+            </ul>
+          </div>
+          <div class="mt-8 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">Waktu Pengerjaan: 7–10 Hari</span>
+            <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20bikin%20E-Katalog%20WhatsApp" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-emerald-400 hover:text-emerald-300 flex items-center gap-1">
+              Konsultasi Paket ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 4: Custom Web App -->
+        <div class="p-8 rounded-2xl bg-slate-900/40 border border-slate-800 hover:border-amber-500/50 transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-600/20 text-amber-400 flex items-center justify-center text-xl font-bold mb-6">
+              ⚙️
+            </div>
+            <div class="text-xs font-semibold text-amber-400 uppercase tracking-wider mb-1">Operasional & SaaS</div>
+            <h3 class="text-xl font-bold text-white group-hover:text-amber-300 transition-colors">Custom Web App & Dashboard</h3>
+            <p class="text-sm text-slate-400 mt-3 leading-relaxed">
+              Pengembangan sistem informasi kustom, panel admin manajemen kerja, inventaris, atau aplikasi berbasis web untuk mendigitalisasi proses operasional bisnis Anda.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-xs text-slate-300">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Arsitektur Full-Stack (Laravel / React / REST API)</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Sistem Autentikasi Pengguna & Multi-Level Hak Akses</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Pelaporan Data & Export PDF / Excel Terintegrasi</li>
+            </ul>
+          </div>
+          <div class="mt-8 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono">Waktu Pengerjaan: Custom Timeline</span>
+            <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20ingin%20konsultasi%20Custom%20Web%20App" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1">
+              Konsultasi Custom ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= PORTOFOLIO / SELECTED WORKS ================= -->
+    <section id="work" class="py-24 border-t border-slate-900 bg-slate-950/40">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+          <div class="max-w-2xl">
+            <span class="text-xs font-bold uppercase tracking-wider text-cyan-400 bg-cyan-950/60 border border-cyan-800/40 px-3 py-1 rounded-full">Karya Terpilih</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-3">Hasil Kerja Nyata yang Berfungsi & Menghasilkan</h2>
+            <p class="mt-3 text-slate-400 text-sm">Lihat bagaimana kami mentransformasikan kebutuhan bisnis menjadi antarmuka digital yang cepat, rapi, dan memukau.</p>
+          </div>
+          <a href="https://abiyyu-portfolio.netlify.app" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-300 hover:text-white flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition w-fit">
+            Buka Arsip Portofolio Lengkap ↗
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          <!-- Work 1: KatalogKu Universal E-Catalog -->
+          <div class="group bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="relative overflow-hidden aspect-video bg-slate-950">
+                <img src="/images/project-katalogku.png" alt="KatalogKu Universal E-Catalog" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent opacity-60"></div>
+                <span class="absolute top-3 left-3 px-2.5 py-1 text-[10px] font-bold uppercase rounded bg-emerald-600 text-white shadow">E-Commerce UMKM</span>
+                <span class="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Live on Netlify</span>
+              </div>
+              <div class="p-6">
+                <div class="text-xs text-emerald-400 font-semibold mb-1">Katalog Produk & WA Cart</div>
+                <h3 class="text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">KatalogKu Universal Interactive E-Catalog</h3>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                  Platform e-katalog untuk pedagang lokal dengan live search produk, filter kategori, keranjang belanja lokal, dan generator checkout otomatis ke WhatsApp admin.
+                </p>
+                <div class="flex flex-wrap gap-1.5 mt-4">
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">JavaScript ES6</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Tailwind CSS</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">WhatsApp API</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">LocalStorage</span>
+                </div>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2 flex items-center justify-between border-t border-slate-800/80">
+              <span class="text-xs text-slate-400 font-mono">UMKM Retail Solution</span>
+              <a href="https://katalogku-demo.netlify.app" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5">
+                Buka Live Demo ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Work 2: Padang Panjang 3D Interactive Web -->
+          <div class="group bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="relative overflow-hidden aspect-video bg-slate-950">
+                <img src="/images/project-padang-panjang.png" alt="Padang Panjang 3D Web" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent opacity-60"></div>
+                <span class="absolute top-3 left-3 px-2.5 py-1 text-[10px] font-bold uppercase rounded bg-indigo-600 text-white shadow">Creative Web 3D</span>
+                <span class="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Live on Netlify</span>
+              </div>
+              <div class="p-6">
+                <div class="text-xs text-indigo-400 font-semibold mb-1">Awwwards-Tier Tourism Web</div>
+                <h3 class="text-lg font-bold text-white group-hover:text-indigo-300 transition-colors">Padang Panjang Interactive 3D Web</h3>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                  Website profil kota interaktif kelas dunia dengan kanvas 3D Three.js. Objek balok 3D storytelling berputar halus merespons mouse kursor, kabut prosedural WebGL, dan audio visualizer HUD.
+                </p>
+                <div class="flex flex-wrap gap-1.5 mt-4">
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Three.js WebGL</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">GSAP</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Web Audio API</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Tailwind CSS</span>
+                </div>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2 flex items-center justify-between border-t border-slate-800/80">
+              <span class="text-xs text-slate-400 font-mono">Advanced Tech Showcase</span>
+              <a href="https://padangpanjang.netlify.app" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5">
+                Buka Live Demo ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Work 3: Modern Workspace Dashboard -->
+          <div class="group bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-500/50 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="relative overflow-hidden aspect-video bg-slate-950">
+                <img src="/images/project-workspace-dashboard.png" alt="Workspace Task Dashboard" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent opacity-60"></div>
+                <span class="absolute top-3 left-3 px-2.5 py-1 text-[10px] font-bold uppercase rounded bg-cyan-600 text-white shadow">SaaS Dashboard</span>
+                <span class="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Live on Netlify</span>
+              </div>
+              <div class="p-6">
+                <div class="text-xs text-cyan-400 font-semibold mb-1">Task Management & Design System</div>
+                <h3 class="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">Workspace Task & Productivity Dashboard</h3>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                  Dashboard manajemen tugas modern berbasis React 18 dengan Genesis Design System. Mendukung persistensi state, kalkulasi metrik tugas dinamis, dan multi-tab rendering.
+                </p>
+                <div class="flex flex-wrap gap-1.5 mt-4">
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">React 18</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Tailwind Semantic</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">LocalStorage</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Vite</span>
+                </div>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2 flex items-center justify-between border-t border-slate-800/80">
+              <span class="text-xs text-slate-400 font-mono">Enterprise UI/UX</span>
+              <a href="https://workspace-demo.netlify.app" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-cyan-400 hover:text-cyan-300 flex items-center gap-1.5">
+                Buka Live Demo ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Work 4: Bengkel Management System -->
+          <div class="group bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-amber-500/50 transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="relative overflow-hidden aspect-video bg-slate-950">
+                <img src="/images/project-bengkel-management.png" alt="Bengkel Management System" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent opacity-60"></div>
+                <span class="absolute top-3 left-3 px-2.5 py-1 text-[10px] font-bold uppercase rounded bg-amber-600 text-white shadow">Full-Stack ERP</span>
+                <span class="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-semibold rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">Enterprise Case</span>
+              </div>
+              <div class="p-6">
+                <div class="text-xs text-amber-400 font-semibold mb-1">Operational System & Invoicing</div>
+                <h3 class="text-lg font-bold text-white group-hover:text-amber-300 transition-colors">Bengkel Management System (PT Menara Agung)</h3>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                  Aplikasi operasional bengkel motor terintegrasi berbasis Laravel & MySQL. Mengelola alur pendaftaran Service Advisor, pembuatan Work Order teknisi AJAX, dan cetak nota transaksi.
+                </p>
+                <div class="flex flex-wrap gap-1.5 mt-4">
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">Laravel 11</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">PHP 8.2</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">MySQL</span>
+                  <span class="px-2 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 font-medium">AJAX & Blade</span>
+                </div>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2 flex items-center justify-between border-t border-slate-800/80">
+              <span class="text-xs text-slate-400 font-mono">Custom System Solution</span>
+              <a href="https://github.com/Biw-id/bengkel-management-test" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1.5">
+                Dokumentasi & Repo ↗
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ALUR KERJA / THE PROCESS ================= -->
+    <section id="process" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 border border-indigo-800/40 px-3 py-1 rounded-full">Alur Kerja Transparan</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-3">Proses Kerja Cepat, Jelas, & Bebas Ribet</h2>
+        <p class="mt-4 text-slate-400 text-sm sm:text-base">Kami memandu Anda dari ide awal hingga website resmi meluncur tanpa istilah teknis yang membingungkan.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+        
+        <!-- Step 1 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="text-3xl font-extrabold text-indigo-500/40 font-mono mb-3">01</div>
+          <h3 class="text-base font-bold text-white mb-2">Konsultasi & Brief</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Kita berdiskusi santai via WhatsApp atau Google Meet untuk memahami tujuan bisnis, target pasar, dan referensi tampilan yang Anda sukai.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="text-3xl font-extrabold text-indigo-500/40 font-mono mb-3">02</div>
+          <h3 class="text-base font-bold text-white mb-2">Wireframe & Desain</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Kami susun struktur konten dan rancangan visual antarmuka. Anda melihat mockup dan memberi masukan sebelum masuk tahap koding.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="text-3xl font-extrabold text-indigo-500/40 font-mono mb-3">03</div>
+          <h3 class="text-base font-bold text-white mb-2">Development & Tes</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Pengembangan kode bersih dengan standar mobile-first, integrasi WhatsApp & analitik, serta uji coba performa kecepatan loading.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="text-3xl font-extrabold text-emerald-500/40 font-mono mb-3">04</div>
+          <h3 class="text-base font-bold text-white mb-2">Peluncuran & Garansi</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Website live di domain Anda, serah terima akun/source code, panduan pemakaian, dan garansi perbaikan gratis selama 30 hari penuh.
+          </p>
+        </div>
+
+      </div>
+    </section>
 
     <!-- ================= PRICING SECTION ================= -->
-    <section id="pricing" class="py-20 px-4 max-w-7xl mx-auto border-t border-slate-900">
+    <section id="pricing" class="py-24 px-4 max-w-7xl mx-auto border-t border-slate-900">
       
-      <!-- 1. Header & Toggle -->
+      <!-- Header & Toggle -->
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Pilihan Paket Investasi</h2>
-        <p class="mt-4 text-slate-400">Pilih paket pengembangan website yang sesuai dengan kebutuhan bisnismu.</p>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 border border-indigo-800/40 px-3 py-1 rounded-full">Investasi Transparan</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-3">Pilihan Paket Investasi Website</h2>
+        <p class="mt-4 text-slate-400 text-sm sm:text-base">Pilih opsi pengerjaan sekali bayar atau model langganan bulanan termasuk maintenance & hosting.</p>
         
-        <!-- Area Tombol Toggle (Nanti kita pasang di sini) -->
-        <div class="mt-8 inline-flex items-center p-1 bg-slate-900 border border-slate-800 rounded-xl">
-          <button id="btn-project" type="button" class="px-4 py-2 text-sm font-medium rounded-lg bg-indigo-600 text-white transition duration-200">
-            Sekali Bayar
+        <!-- Toggle Button Container -->
+        <div class="mt-8 inline-flex items-center p-1.5 bg-slate-900 border border-slate-800 rounded-2xl shadow-inner">
+          <button id="btn-project" type="button" class="px-5 py-2 text-xs sm:text-sm font-semibold rounded-xl bg-indigo-600 text-white transition duration-200">
+            Sekali Bayar (Proyek)
           </button>
-          <button id="btn-monthly" type="button" class="px-4 py-2 text-sm font-medium rounded-lg text-slate-400 hover:text-white transition duration-200">
+          <button id="btn-monthly" type="button" class="px-5 py-2 text-xs sm:text-sm font-semibold rounded-xl text-slate-400 hover:text-white transition duration-200">
             Langganan / Maintenance
           </button>
         </div>
       </div>
 
-      <!-- 2. Grid 3 Kolom Kartu Harga -->
+      <!-- Grid 3 Kolom Kartu Harga -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
         
-        <!-- Kartu 1: Starter -->
-        <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between">
+        <!-- Kartu 1: Starter / Landing Page -->
+        <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between hover:border-slate-700 transition">
           <div>
-            <h3 class="text-lg font-semibold text-slate-300">Landing Page</h3>
-            <p class="text-sm text-slate-500 mt-1">Cocok untuk promosi produk atau event.</p>
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Paket Starter</div>
+            <h3 class="text-xl font-bold text-white mt-1">High-Converting Landing Page</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">Pilihan tepat untuk promosi produk, event, peluncuran kursus, atau kampanye iklan digital.</p>
+            
             <div class="mt-6 flex items-baseline">
               <span class="text-4xl font-extrabold text-white" id="price-starter">Rp 1.5jt</span>
-              <span class="text-slate-400 text-sm ml-2" id="period-starter">/proyek</span>
+              <span class="text-slate-400 text-xs ml-2" id="period-starter">/proyek</span>
             </div>
-            <ul class="mt-6 space-y-3 text-sm text-slate-300">
-              <li class="flex items-center gap-2">✓ 1 Halaman Responsif</li>
-              <li class="flex items-center gap-2">✓ Desain Custom Modern</li>
-              <li class="flex items-center gap-2">✓ Integrasi WhatsApp</li>
+
+            <ul class="mt-6 space-y-3 text-xs text-slate-300">
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>1 Halaman Panjang Responsif (One-Page)</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Desain Custom Modern Mobile-First</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Integrasi Form / Tombol WhatsApp Lead</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Pemasangan Google Analytics & Meta Pixel</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Garansi Bug-Free 30 Hari</span>
+              </li>
             </ul>
           </div>
-          <a href="#contact" class="mt-8 block text-center py-2.5 px-4 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-medium transition">Pilih Paket</a>
+          <a id="cta-starter" href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Landing%20Page%20(Rp%201.5jt)" target="_blank" rel="noopener noreferrer" class="mt-8 block text-center py-3 px-4 rounded-xl border border-slate-700 hover:bg-slate-800 text-white text-xs font-semibold transition">
+            Pilih Paket Starter
+          </a>
         </div>
 
-        <!-- Kartu 2: Pro (Paling Populer - Dibuat Lebih Mencolok) -->
-        <div class="bg-slate-900/80 border-2 border-indigo-500 rounded-2xl p-8 flex flex-col justify-between relative shadow-xl shadow-indigo-500/10">
-          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-indigo-600 text-white px-3 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wider">
+        <!-- Kartu 2: Pro (Paling Diminati) -->
+        <div class="bg-slate-900/90 border-2 border-indigo-500 rounded-2xl p-8 flex flex-col justify-between relative shadow-2xl shadow-indigo-500/15">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white px-3.5 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider shadow-md">
             Paling Diminati
           </div>
           <div>
-            <h3 class="text-lg font-semibold text-indigo-400">Company Profile / Katalog</h3>
-            <p class="text-sm text-slate-500 mt-1">Solusi lengkap bisnis & UMKM berkembang.</p>
+            <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider">Paket Bisnis Pro</div>
+            <h3 class="text-xl font-bold text-white mt-1">Company Profile / E-Katalog</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">Solusi lengkap untuk perusahaan, klinik, UMKM retail, atau toko online yang butuh etalase produk berkelas.</p>
+            
             <div class="mt-6 flex items-baseline">
               <span class="text-4xl font-extrabold text-white" id="price-pro">Rp 3.5jt</span>
-              <span class="text-slate-400 text-sm ml-2" id="period-pro">/proyek</span>
+              <span class="text-slate-400 text-xs ml-2" id="period-pro">/proyek</span>
             </div>
-            <ul class="mt-6 space-y-3 text-sm text-slate-300">
-              <li class="flex items-center gap-2">✓ Hingga 5 Halaman</li>
-              <li class="flex items-center gap-2">✓ Fitur Katalog Produk</li>
-              <li class="flex items-center gap-2">✓ SEO Dasar & Optimasi Kecepatan</li>
-              <li class="flex items-center gap-2">✓ Gratis Domain & Hosting 1 Thn</li>
+
+            <ul class="mt-6 space-y-3 text-xs text-slate-300">
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Hingga 5 Halaman Lengkap atau E-Katalog Produk</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Fitur Cart Drawer & Checkout Otomatis WA</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Optimasi SEO Google On-Page & Kecepatan 95+</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Gratis Domain (.com/.id) & Cloud Hosting 1 Tahun</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Email Bisnis Profesional (info@perusahaan.com)</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Garansi Bug-Free & Dukungan Pemeliharaan</span>
+              </li>
             </ul>
           </div>
-          <a href="#contact" class="mt-8 block text-center py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition shadow-lg shadow-indigo-600/30">Pilih Paket</a>
+          <a id="cta-pro" href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20dengan%20Paket%20Pro%20(Company%20Profile%20/%20Katalog%20Rp%203.5jt)" target="_blank" rel="noopener noreferrer" class="mt-8 block text-center py-3.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-lg shadow-indigo-600/30 transition">
+            Pilih Paket Pro Bisnis
+          </a>
         </div>
 
         <!-- Kartu 3: Custom App -->
-        <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between">
+        <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between hover:border-slate-700 transition">
           <div>
-            <h3 class="text-lg font-semibold text-slate-300">Custom Web App</h3>
-            <p class="text-sm text-slate-500 mt-1">Sistem informasi atau web aplikasi khusus.</p>
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Enterprise Custom</div>
+            <h3 class="text-xl font-bold text-white mt-1">Custom Web App & Sistem</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">Sistem informasi operasional, aplikasi internal, dashboard manajemen tugas, atau integrasi API kompleks.</p>
+            
             <div class="mt-6 flex items-baseline">
               <span class="text-4xl font-extrabold text-white">Custom</span>
+              <span class="text-slate-400 text-xs ml-2">Quote Berdasarkan Fitur</span>
             </div>
-            <ul class="mt-6 space-y-3 text-sm text-slate-300">
-              <li class="flex items-center gap-2">✓ Fitur Interaktif Kompleks</li>
-              <li class="flex items-center gap-2">✓ Database & API Integration</li>
-              <li class="flex items-center gap-2">✓ Dashboard Admin Khusus</li>
+
+            <ul class="mt-6 space-y-3 text-xs text-slate-300">
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Arsitektur Full-Stack (Laravel, React, MySQL)</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Panel Admin & Dashboard Pelaporan Khusus</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Integrasi Payment Gateway / WhatsApp Gateway</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>Setup Server VPS Linux & Keamanan SSL</span>
+              </li>
+              <li class="flex items-center gap-2.5">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                <span>SLA Dukungan & Pelatihan Penggunaan</span>
+              </li>
             </ul>
           </div>
-          <a href="#contact" class="mt-8 block text-center py-2.5 px-4 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-medium transition">Konsultasi Dulu</a>
+          <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20ingin%20konsultasi%20pembuatan%20Custom%20Web%20App%20/%20Sistem%20Informasi" target="_blank" rel="noopener noreferrer" class="mt-8 block text-center py-3 px-4 rounded-xl border border-slate-700 hover:bg-slate-800 text-white text-xs font-semibold transition">
+            Konsultasi Kebutuhan Anda
+          </a>
         </div>
 
       </div>
     </section>
 
     <!-- ================= FAQ SECTION ================= -->
-    <section id="faq" class="py-20 px-4 max-w-4xl mx-auto border-t border-slate-900">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-extrabold text-white tracking-tight">Pertanyaan yang Sering Diajukan</h2>
-        <p class="mt-3 text-slate-400">Punya pertanyaan seputar proses kerja sama? Temukan jawabannya di sini.</p>
+    <section id="faq" class="py-24 px-4 max-w-4xl mx-auto border-t border-slate-900">
+      <div class="text-center mb-16">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 border border-indigo-800/40 px-3 py-1 rounded-full">Tanya Jawab</span>
+        <h2 class="text-3xl font-extrabold text-white tracking-tight mt-3">Pertanyaan yang Sering Diajukan</h2>
+        <p class="mt-3 text-slate-400 text-sm">Punya pertanyaan seputar proses kerja sama? Temukan jawabannya di sini.</p>
       </div>
 
       <div class="space-y-4">
-        <!-- Item FAQ 1 -->
-        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-xl overflow-hidden transition">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-2xl overflow-hidden transition">
           <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
-            <span>Berapa lama proses pembuatan satu website?</span>
-            <span class="faq-icon text-slate-400 transition-transform duration-300">▼</span>
+            <span class="text-sm sm:text-base font-semibold">Berapa lama proses pembuatan satu website?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300 ml-4 flex-shrink-0">▼</span>
           </button>
-          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-sm leading-relaxed border-t border-slate-800/60 pt-3">
-            Untuk Landing Page rata-rata memakan waktu 3-5 hari kerja. Sedangkan untuk Company Profile atau Katalog Produk membutuhkan waktu sekitar 1-2 minggu tergantung kelengkapan materi dan revisi.
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-xs sm:text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            Untuk paket Landing Page rata-rata memakan waktu 3–5 hari kerja. Sedangkan untuk Company Profile atau E-Katalog Produk membutuhkan waktu sekitar 7–14 hari kerja tergantung kelengkapan materi teks, foto produk, dan proses revisi.
           </div>
         </div>
 
-        <!-- Item FAQ 2 -->
-        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-xl overflow-hidden transition">
+        <!-- FAQ 2 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-2xl overflow-hidden transition">
           <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
-            <span>Apakah websitenya sudah bisa dibuka di HP dengan rapi?</span>
-            <span class="faq-icon text-slate-400 transition-transform duration-300">▼</span>
+            <span class="text-sm sm:text-base font-semibold">Apakah sudah termasuk domain dan hosting?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300 ml-4 flex-shrink-0">▼</span>
           </button>
-          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-sm leading-relaxed border-t border-slate-800/60 pt-3">
-            Tentu saja! Semua website yang kami bangun menggunakan pendekatan Mobile-First dan responsive design murni, dioptimalkan agar ringan dan cepat diakses dari berbagai ukuran layar smartphone, tablet, maupun laptop.
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-xs sm:text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            Ya! Untuk Paket Pro, Anda sudah mendapatkan gratis domain (.com atau .id) dan hosting cloud berkecepatan tinggi selama 1 tahun pertama. Jika Anda sudah memiliki domain sendiri sebelumnya, kami dapat langsung menghubungkannya tanpa biaya tambahan.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-2xl overflow-hidden transition">
+          <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
+            <span class="text-sm sm:text-base font-semibold">Bagaimana jika saya belum punya materi teks dan foto?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300 ml-4 flex-shrink-0">▼</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-xs sm:text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            Tenang, tim Studio Biu akan membantu merapikan copywriting (susunan kata promosi) dan memilihkan aset visual atau ilustrasi bebas royalti beresolusi tinggi yang relevan dengan jenis industri bisnis Anda.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-2xl overflow-hidden transition">
+          <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
+            <span class="text-sm sm:text-base font-semibold">Bagaimana sistem pembayarannya?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300 ml-4 flex-shrink-0">▼</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-xs sm:text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            Sistem pembayaran sangat fleksibel: Down Payment (DP) 50% di awal setelah brief dan kesepakatan fitur disetujui, dan pelunasan 50% setelah website selesai direview, disetujui, dan siap diluncurkan di domain Anda.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item border border-slate-800 bg-slate-900/40 rounded-2xl overflow-hidden transition">
+          <button type="button" class="faq-btn w-full p-5 text-left flex justify-between items-center text-white font-medium hover:text-indigo-400 transition">
+            <span class="text-sm sm:text-base font-semibold">Apakah saya mendapatkan hak milik penuh atas website?</span>
+            <span class="faq-icon text-slate-400 transition-transform duration-300 ml-4 flex-shrink-0">▼</span>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-slate-400 text-xs sm:text-sm leading-relaxed border-t border-slate-800/60 pt-3">
+            100% Hak Milik! Seluruh source code, akun hosting, domain, dan aset desain diserahkan penuh kepada Anda. Tidak ada biaya tersembunyi (*no vendor lock-in*).
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= BOTTOM CTA / CONTACT BANNER ================= -->
+    <section id="contact" class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="relative overflow-hidden rounded-3xl bg-gradient-to-tr from-indigo-950 via-slate-900 to-slate-950 border border-indigo-500/30 p-8 sm:p-14 text-center shadow-2xl">
+        <div class="absolute -top-24 -left-24 w-72 h-72 bg-indigo-500/20 blur-[100px] rounded-full pointer-events-none"></div>
+        <div class="absolute -bottom-24 -right-24 w-72 h-72 bg-cyan-500/20 blur-[100px] rounded-full pointer-events-none"></div>
+
+        <div class="relative z-10 max-w-3xl mx-auto">
+          <span class="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-indigo-500/10 border border-indigo-400/30 text-indigo-300">Mulai Kolaborasi Anda Hari Ini</span>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mt-4">Siap Bawa Bisnis Anda ke Level Berikutnya?</h2>
+          <p class="mt-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+            Konsultasikan kebutuhan website Anda secara gratis bersama tim Studio Biu. Kami bantu merumuskan solusi terbaik yang sesuai dengan anggaran dan target bisnis Anda.
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+            <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20konsultasi%20pembuatan%20website" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto h-12 px-8 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold flex items-center justify-center gap-2.5 shadow-lg shadow-indigo-600/40 hover:shadow-indigo-600/60 transition duration-200">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              Chat via WhatsApp (0822-8963-4937)
+            </a>
+            <a href="mailto:abiyyudedev@gmail.com" class="w-full sm:w-auto h-12 px-6 rounded-xl border border-slate-700 bg-slate-900/80 hover:bg-slate-800 text-slate-200 hover:text-white font-medium flex items-center justify-center gap-2 transition duration-200">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              Kirim Email Resmi
+            </a>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-800/60 text-xs text-slate-400">
+            Respon cepat setiap hari kerja • Konsultasi gratis tanpa kewajiban
           </div>
         </div>
       </div>
@@ -224,24 +799,43 @@
 
     <!-- ================= FOOTER ================= -->
     <footer class="border-t border-slate-900 bg-slate-950 py-12 px-4">
-      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         
         <!-- Brand / Copyright -->
         <div class="flex items-center space-x-2 text-lg font-bold">
-          <span class="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-xs font-black">B</span>
-          <span>Studio<span class="text-indigo-400">Biu</span></span>
-          <span class="text-xs text-slate-500 font-normal ml-2">© 2026 Abiyyu Shiddiq As'ad. All rights reserved.</span>
+          <span class="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-400 flex items-center justify-center text-white text-xs font-black">B</span>
+          <span class="text-white">Studio<span class="text-indigo-400">Biu</span></span>
+          <span class="text-xs text-slate-500 font-normal ml-3">© 2026 Abiyyu Shiddiq As'ad. All rights reserved.</span>
         </div>
 
         <!-- Social / Contact Links -->
-        <div class="flex items-center space-x-6 text-sm text-slate-400">
-          <a href="https://github.com/Biw-id" target="_blank" class="hover:text-white transition">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" class="hover:text-white transition">LinkedIn</a>
-          <a href="mailto:abiyyudedev@gmail.com" class="hover:text-indigo-400 transition">abiyyudedev@gmail.com</a>
+        <div class="flex items-center space-x-6 text-xs text-slate-400">
+          <a href="https://github.com/Biw-id" target="_blank" rel="noopener noreferrer" class="hover:text-white transition flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/abiyyu-shiddiq-as-ad" target="_blank" rel="noopener noreferrer" class="hover:text-white transition flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://abiyyu-portfolio.netlify.app" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">
+            Portofolio Utama
+          </a>
+          <a href="mailto:abiyyudedev@gmail.com" class="hover:text-indigo-400 transition">
+            abiyyudedev@gmail.com
+          </a>
         </div>
 
       </div>
     </footer>
+
+    <!-- ================= FLOATING WHATSAPP BUTTON ================= -->
+    <aside aria-label="Quick contact" class="fixed bottom-6 right-6 z-50">
+      <a href="https://wa.me/6282289634937?text=Halo%20Studio%20Biu,%20saya%20tertarik%20bikin%20website" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-2.5 px-4 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full shadow-2xl shadow-emerald-600/40 hover:scale-105 transition-all duration-200">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        <span class="text-xs font-bold tracking-wide hidden sm:inline">Tanya via WhatsApp</span>
+      </a>
+    </aside>
 
     <script type="module" src="/src/main.js"></script>
   </body>
