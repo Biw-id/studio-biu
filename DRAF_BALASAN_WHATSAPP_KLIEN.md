@@ -118,7 +118,7 @@ Baik Kak [Nama Klien], berikut rangkuman kesepakatan pengerjaan website untuk [N
 - Garansi perbaikan/bug-fixing gratis selama 30 hari
 
 ⏱️ **Estimasi Waktu Pengerjaan:** [3–5 hari kerja / 7–10 hari kerja]
-💵 **Total Investasi:** Rp [Nominal, misal: 750.000 / 1.500.000]
+💵 **Total Investasi:** Rp [Nominal, misal: 650.000 / 1.650.000]
 
 ---
 
